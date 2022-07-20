@@ -1,0 +1,25 @@
+@import "_header.scss";
+@import "_nullstyle.scss";
+
+.top {
+  height: 90px;
+  background-color: #ffffff;
+  position: relative;
+  border-bottom: 3px solid #3f90d6;
+}
+.menu {
+  font-size: 25px;
+  margin: 0 0 30px 0;
+
+  &__logo {
+  }
+
+  &__menu {
+  }
+}
+.clearfix {
+}
+.main-menu {
+}
+.submenu {
+}
