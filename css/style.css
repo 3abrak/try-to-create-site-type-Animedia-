@@ -85,17 +85,135 @@ h6 {
   font-weight: 400;
 }
 
+body {
+  line-height: normal;
+  color: #2a2a2a;
+  font-weight: 400;
+}
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+frame,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+a,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+textarea,
+select,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+input {
+  box-sizing: border-box;
+}
+
 .top {
   height: 90px;
   background-color: #ffffff;
   position: relative;
+  z-index: 300;
+  padding: 0 220px;
+  margin: 0 auto 0;
   border-bottom: 3px solid #3f90d6;
 }
 
 .menu {
-  font-size: 25px;
-  margin: 0 0 30px 0;
+  font-size: 28px;
 }
 .menu__logo {
-  height: 10px;
+  position: absolute;
+}
+.menu__clearfix {
+  position: relative;
+  top: 30px;
+  left: 250px;
+}
+.submenu:nth-child(2) {
+  position: relative;
+  left: 100px;
+  top: -33px;
+}
+.submenu:nth-child(3) {
+  position: relative;
+  left: 170px;
+  top: -66px;
+}
+.submenu:nth-child(4) {
+  position: relative;
+  left: 300px;
+  top: -99px;
+}
+.submenu:nth-child(5) {
+  position: relative;
+  left: 365px;
+  top: -132px;
+}
+.submenu:nth-child(6) {
+  position: relative;
+  left: 440px;
+  top: -165px;
+}
+.submenu:nth-child(7) {
+  position: relative;
+  left: 590px;
+  top: -198px;
 }
